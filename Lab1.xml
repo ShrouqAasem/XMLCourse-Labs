@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+<!DOCTYPE Library SYSTEM "MyLib.dtd">
+
+<Library>
+    <Info>
+        <Location>&address1;</Location>
+        <Description>One of the most historical libraries</Description>
+    </Info>
+    <Books>
+        
+        <!--First Book -->
+        <Book ISBN="1">
+            <Title titleOf="1">Rich Dad Poor Dad</Title>
+            <Author gender="M">Robert Kiyosaki</Author>
+
+            <!--First Part -->
+            <Part num="1">
+                <Ptitle>Te</Ptitle>
+
+                <!--First Chapter -->
+                <Chapter pageS="1">
+                    <Ctitle>Te</Ctitle>
+                    <Summary length="10">Te</Summary>
+
+                    <!--First Section -->
+                    <Section snum="1">
+                        <Content>
+                            <![CDATA[Within this Character Data block I can
+                            use double dashes as much as I want (along with <, &, ', and ")
+                            *and* %MyParamEntity; will be expanded to the text
+                            "Has been expanded"]]>
+                        </Content>
+                    </Section>
+                </Chapter>		
+            </Part>
+        </Book>
+        	
+    </Books>
+
+</Library>
+
