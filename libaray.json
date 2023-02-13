@@ -1,0 +1,56 @@
+{
+    "libaray": {
+        "location": "location",
+        "description": "description",
+        "librarian": "librarian",
+        "name": "name",
+        "books": [
+            {
+                "title": "book1",
+                "authors": {
+                    "firstName": "Moustafa",
+                    "lastName": "Mahmoud"
+                },
+                "preface": "ASD",
+                "catogary": "Science Fiction",
+                "part": [
+                    {
+                        "title": "book1 B",
+                        "chapter": [{
+                                "title": "",
+                                "summary": "",
+                                "section": [
+                                    {
+                                        "content": ["paragraph", "paragraph"]
+                                    }]
+                            }]
+                    }
+                ]
+            },
+            
+            {
+                "title": "title",
+                "authors": {
+                    "firstName": "",
+                    "lastName": ""
+                },
+                "preface": "",
+                "catogary": "",
+                "part": [
+                    {
+                        "title": "",
+                        "chapter": [{
+                                "title": "",
+                                "summary": "",
+                                "section": [
+                                    {
+                                        "content": ["paragraph", "paragraph"]
+                                    }]
+                            }]
+                    }
+                ]
+            }
+
+        ]
+    }
+}
