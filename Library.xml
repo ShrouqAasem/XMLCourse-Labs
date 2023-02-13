@@ -7,20 +7,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
 
 <BookStore 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:noNamespaceSchemaLocation="Task3Schema.xsd">
-    <Book>
+    xsi:noNamespaceSchemaLocation="Task4Schema.xsd">
+    <Book Category="fiction" InStock="false">
         <Title>Book1</Title>
         <Author>Moustafa</Author>
-        <Date>22-6-2023</Date>
-        <ISBN>22-22-23</ISBN>
-        <Publisher>Mahmoud</Publisher>
-    </Book>
-    <Book>
-        <Title>Book2</Title>
-        <Author>Moustafa</Author>
-        <Date>22-6-2023</Date>
-        <ISBN>22-22-23</ISBN>
-        <Publisher>Mahmoud</Publisher>
     </Book>
 </BookStore>
 
