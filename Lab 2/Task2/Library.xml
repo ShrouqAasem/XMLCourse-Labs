@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+<Library 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Task2Schema.xsd">
+    <location>
+        <city>Cairo</city>
+        <district>Nasr City</district>
+        <street>Salah Salem</street>
+        <building></building>
+    </location>
+    <description>
+        A library full of many interesting books in many fields.
+        You can read books inside library or borrow them for free.
+    </description>
+    <books>
+    <book>  
+            <title>The Lord of the Rings</title>
+            <author>J.R.R. Tolkien</author>
+            <preface>
+                A world full of hobbits, elves, orcs, goblins, and wizards.
+                The Lord of the Rings will take you on an unbelievable adventure.
+            </preface>
+            <part>
+                <title>part1</title>
+                <chapter>
+                    <title>chapter1</title>
+                    <section>section1</section>
+                    <section>section2</section>
+                    <section>section3</section>
+                    <summary>hobbits war</summary>
+                </chapter>
+                <chapter>
+                    <title>chapter2</title>
+                    <section>section1</section>
+                    <section>section2</section>
+                    <section>section3</section>
+                    <summary>hobbits won</summary>
+                </chapter>
+            </part>
+            <part>
+                <title>part2</title>
+                <chapter>
+                    <title>chapter3</title>
+                    <section>section1</section>
+                    <section>section2</section>
+                    <section>section3</section>
+                    <summary>Frudo,s Ring</summary>
+                </chapter>
+                <chapter>
+                    <title>chapter4</title>
+                    <section>section1</section>
+                    <section>section2</section>
+                    <section>section3</section>
+                    <summary>Finally the ring returned</summary>
+                </chapter>
+            </part>
+        </book>
+        <book>
+            <title>1984</title>
+            <author>George Orwell</author>
+            <preface>
+                1984 tells the futuristic story of a dystopian,
+                totalitarian world where free will and love are forbidden.
+            </preface>
+            <part>
+                <title>part1</title>
+                <chapter>
+                    <title>chapter1</title>
+                    <section>section1</section>
+                    <section>section2</section>
+                    <section>section3</section>
+                    <summary>1984 condition</summary>
+                </chapter>
+                <chapter>
+                    <title>chapter2</title>
+                    <section>section1</section>
+                    <section>section2</section>
+                    <section>section3</section>
+                    <section>section4</section>
+                    <section>section5</section>
+                    <summary>totalitarian world</summary>
+                </chapter>
+            </part>
+            <part>
+                <title>part2</title>
+                <chapter>
+                    <title>chapter3</title>
+                    <section>section1</section>
+                    <section>section2</section>
+                    <section>section3</section>
+                    <section>section4</section>
+                    <summary>our condition</summary>
+                </chapter>
+                <chapter>
+                    <title>chapter4</title>
+                    <section>section1</section>
+                    <section>section2</section>
+                    <summary>Final comparison</summary>
+                </chapter>
+            </part>
+        </book>
+    </books>
+</Library>
